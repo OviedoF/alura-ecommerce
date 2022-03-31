@@ -1,0 +1,20 @@
+.promotionInfoCard{
+    width: 200px;
+    height: 300px;
+
+    img {
+        width: 100%;;
+    }
+
+    .promotionInfoCard-text{
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        margin-top: 10px;
+
+        h4{
+            color: #f0f0f0;
+            margin-bottom: 0;
+        }
+    }
+}
