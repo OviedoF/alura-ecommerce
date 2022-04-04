@@ -3,6 +3,7 @@ import './NumerationPromotion.scss';
 import { faAngleLeft, faAngleRight } from "@fortawesome/free-solid-svg-icons";
 
 function NumerationPromotion({promotionalInfo, numPosition, handleNumPosition}) {
+
     return ( 
         <div className="numerationPromotion">
             <h4>00{numPosition + 1}</h4>

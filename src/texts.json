@@ -1,0 +1,107 @@
+{
+    "navbar": {
+        "es": {
+            "shop": "TIENDA",
+            "contact": "CONTACTANOS"
+        },
+        "en": {
+            "shop": "SHOP",
+            "contact": "CONTACT US"
+        },
+        "br": {
+            "shop": "LOJA",
+            "contact": "CONTATE-NOS"
+        }
+    },
+    "promotionals": {
+        "es": {
+            "info": [
+                "Gorrita Cappy Mario Odyssey original nintendo",
+                "HoriPad Nintendo Switch Zelda Edition",
+                "Lenovo Zenbook 14",
+                "Funko POP spidey",
+                "Microsoft Xbox series X 1TB Standard"
+            ],
+            "largeInfo": [{
+                "h2": "Gorra Mario Odyssey",
+                "p": "Producto original certificado por nintendo (año 2020). Viene envasado y sellado con etiqueta original holográfica."
+            }, 
+            {
+                "h2": "Wireless HoriPad Zelda Edition",
+                "p": "HORI ofrece lo mejor con el Nintendo Switch Wireless HORIPAD. La batería de iones de litio recargable incorporada y la tecnología inalámbrica Bluetooth le brindan libertad con un alcance de 10 mts y más de 15 horas de duración de la batería. Se carga con el cable USB-C incluido. Con licencia oficial de Nintendo"
+            },
+            {
+                "h2": "Asus ZenBook 14 UX433FA",
+                "p": "Disfrutá de la perfecta combinación de rendimiento y diseño con esta notebook Asus ZenBook UX425EA. Encontrarás en ella una excelente herramienta para tus trabajos de todos los días y para tus momentos de entretenimiento. Aprovechá la experiencia extraordinaria que la marca tiene para ofrecerte y optimizá la calidad de tus imágenes y videos."
+            },
+            {
+                "h2": "Figura Spiderman Tipo Funko Pop!",
+                "p": "Spiderman pop! Colecciona a todos tus héroes y villanos favoritos de las mejores películas y series."
+            },
+            {
+                "h2": "Microsoft Xbox series X",
+                "p": "Con tu consola Xbox Series tendrás entretenimiento asegurado todos los días. Su tecnología fue creada para poner nuevos retos tanto a jugadores principiantes como expertos."
+            }]
+        },
+
+        "en": {
+            "info": [
+                "Cappy Cap Mario Odyssey original nintendo",
+                "HoriPad Nintendo Switch Zelda Edition",
+                "Lenovo Zenbook 14",
+                "Spider-Man funko POP",
+                "Microsoft Xbox series X 1TB Standard"
+            ],
+            "largeInfo": [{
+                "h2": "Cap Mario Odyssey",
+                "p": "Original product certified by nintendo (year 2020). Comes packaged and sealed with original holographic label."
+            }, 
+            {
+                "h2": "Wireless HoriPad Zelda Edition",
+                "p": "HORI offers the best with the Nintendo Switch Wireless HORIPAD. The built-in rechargeable lithium-ion battery and Bluetooth wireless technology give you freedom with a 10m range and over 15 hours of battery life. Charges with the included USB-C cable. Officially licensed by Nintendo"
+            },
+            {
+                "h2": "Asus ZenBook 14 UX433FA",
+                "p": "Enjoy the perfect combination of performance and design with this Asus ZenBook UX425EA notebook. You will find in it an excellent tool for your everyday work and for your entertainment moments. Take advantage of the extraordinary experience that the brand has to offer and optimize the quality of your images and videos."
+            },
+            {
+                "h2": "Spiderman Figure Funko Pop Type!",
+                "p": "Spiderman pop! Collect all your favorite heroes and villains from the best movies and series."
+            },
+            {
+                "h2": "Microsoft Xbox series X",
+                "p": "With your Xbox Series console you will have guaranteed entertainment every day. Its technology was created to set new challenges for both beginners and expert gamers."
+            }]
+        },
+
+        "br" : {
+            "info": [
+                "Cappy Mario Odyssey original da Nintendo Cappy Beanie",
+                "HoriPad Nintendo Switch Zelda Edition",
+                "Lenovo Zenbook 14",
+                "Funko POP spiderman",
+                "Microsoft Xbox série X 1TB Standard"
+            ],
+            "largeInfo": [{
+                "h2": "Boné Mario Odyssey",
+                "p": "Produto original certificado pela nintendo (ano 2020). Vem embalado e selado com etiqueta holográfica original."
+            }, 
+            {
+                "h2": "Edição sem fio HoriPad Zelda",
+                "p": "HORI oferece o melhor com o Nintendo Switch Wireless HORIPAD. A bateria de íons de lítio recarregável e a tecnologia sem fio Bluetooth integrada lhe dão liberdade com um alcance de 10m e mais de 15 horas de vida útil da bateria. Carregamento com o cabo USB-C incluído. Oficialmente licenciado pela Nintendo"
+            },
+            {
+                "h2": "Asus ZenBook 14 UX433FA",
+                "p": "Aproveite a combinação perfeita de desempenho e design com este caderno Asus ZenBook UX425EA. Você a encontrará uma excelente ferramenta para seu trabalho diário e entretenimento. Aproveite a extraordinária experiência que a marca tem a oferecer e otimize a qualidade de suas imagens e vídeos."
+            },
+            {
+                "h2": "Funko Pop da figura do Homem-Aranha!",
+                "p": "Pop Homem-Aranha! Reúna todos os seus heróis e vilões favoritos a partir dos melhores filmes e séries."
+            },
+            {
+                "h2": "Série Xbox X da Microsoft",
+                "p": "Com seu console da Série Xbox, você tem a garantia de estar entretido todos os dias. Sua tecnologia foi criada para desafiar tanto os jogadores novatos quanto os experientes."
+            }]
+        }
+    }
+}
