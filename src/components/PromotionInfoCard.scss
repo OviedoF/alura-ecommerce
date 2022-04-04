@@ -1,9 +1,20 @@
 .promotionInfoCard{
-    width: 200px;
+    width: 20%;
     height: 300px;
 
     img {
         width: 100%;;
+    }
+
+    .promotionalCard_logos{
+        display: flex;
+        overflow: hidden;
+
+        img {
+            object-fit: contain;
+            position: relative;
+            transition: all .1s;
+        }
     }
 
     .promotionInfoCard-text{

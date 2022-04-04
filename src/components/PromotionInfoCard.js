@@ -1,13 +1,17 @@
-import LogoAsus from '../imgs/brands-logos/ASUS_LOGO.png';
 import './PromotionInfoCard.scss';
 
-function PromotionInfoCard() {
+function PromotionInfoCard({logos, descriptions, numPosition}) {
     return ( 
         <div className="promotionInfoCard">
-            <img src={LogoAsus} alt="Brand-Promotion" />
+            <div className="promotionalCard_logos">
+                {logos.map(el => (
+                    <img src={el}  key={el} alt={`brand_logo`} style={ {  right: `${numPosition}00%` } }/>
+                ))}
+            </div>
+
             <div className="promotionInfoCard-text">
-                <h4>Asus zenbook 14</h4>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, ullam. Error provident tenetur vero perferendis consectetur. Esse, ipsam excepturi. Mollitia nihil consequatur quod nisi adipisci aliquam illo aut, optio ducimus!</p>
+                <h4>{descriptions[numPosition].h2}</h4>
+                <p>{descriptions[numPosition].p}</p>
             </div>
         </div>
      );

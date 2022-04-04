@@ -16,7 +16,18 @@
 
     .numerationIcons{
         svg {
-            margin: 10px
+            margin: 10px;
+            cursor: pointer;
+
+            &:hover{
+                color: #f0f0f0;
+            }
         }
+    }
+
+    p{
+        margin: 0;
+        min-height: 100px;
+        text-align: left;
     }
 }
