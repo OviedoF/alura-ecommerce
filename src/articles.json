@@ -1,0 +1,100 @@
+{
+    "ArticlesMainSection": {
+        "featured": [
+            {
+                "id": "featured1",
+                "info": "Atari Camiseta",
+                "price": 5.00
+            },
+            {
+                "id": "featured2",
+                "info": "Muñecos Darth Vader",
+                "price": 5.00
+            },
+            {
+                "id":"featured3",
+                "info":"Camiseta NES",
+                "price": 5.00
+            },
+            {
+                "id":"featured4",
+                "info": "PlayStation 5",
+                "price": 60.00
+            },
+            {
+                "id":"featured5",
+                "info": "Cabeza soldado Star Wars",
+                "price": 5.00
+            },
+            {
+                "id":"featured6",
+                "info":"Control xbox One",
+                "price": 20.00
+            }
+        ],
+        "promotions": [
+            {
+                "id":"promotions1",
+                "info": "Figura Baby Yoda",
+                "price": 10
+            },
+            {
+                "id":"promotions2",
+                "info": "Consola Xbox Series X",
+                "price": 500
+            },
+            {
+                "id":"promotions3",
+                "info": "Gafas Realidad Virtual",
+                "price": 300
+            },
+            {
+                "id":"promotions4",
+                "info": "Figura coleccionable Darth Mau",
+                "price": 15
+            },
+            {
+                "id":"promotions5",
+                "info": "Consola retro Game Boy Color",
+                "price": 300
+            },
+            {
+                "id":"promotions6",
+                "info": "Disfraz gigante Pikachu",
+                "price": 100
+            }
+        ],
+        "mostWanted": [
+            {
+                "id": "mostWanted1",
+                "info": "Consola XYZ",
+                "price": 50.00
+            },
+            {
+                "id":"mostWanted2",
+                "info":"Mandos Nintendo Switch",
+                "price": 20.00
+            },
+            {
+                "id":"mostWanted3",
+                "info":"Figura soldado Star Wars",
+                "price": 15.00
+            },
+            {
+                "id":"mostWanted4",
+                "info":"Figura Sonic el Erizo",
+                "price": 10.00
+            },
+            {
+                "id":"mostWanted5",
+                "info": "Consola retro NES",
+                "price": 50.00
+            },
+            {
+                "id":"mostWanted6",
+                "info": "Figura coleccionable Yoda",
+                "price": 15.00
+            }
+        ]
+    }
+}

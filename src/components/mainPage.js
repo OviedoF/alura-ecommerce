@@ -35,9 +35,15 @@ function MainPage() {
             1500,
             140000
         ],
+        Discount: [
+            20,
+            33,
+            15,
+            25,
+            35
+        ],
         largeInfo: texts.promotionals[lenguage].largeInfo
     };
-
 
     const handleNumPosition = (isAdding) => {
         if (isAdding){

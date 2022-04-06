@@ -1,0 +1,96 @@
+#ArticlesMainSection{
+    margin-top: 50px;
+    .controlers-mixit{
+        display: flex;
+        background-color: transparent;
+        justify-content: space-between;
+        margin-bottom: 80px;
+
+        button {
+            border: none;
+            width: 33.3%;
+            height: 70px;
+            background-color: transparent;
+            box-shadow: 1px 7px 0px -2px rgba(0, 0, 0, 0.226);
+            -webkit-box-shadow: 1px 7px 0px -2px rgba(0,0,0,0.226);
+            -moz-box-shadow: 1px 7px 0px -2px rgba(0,0,0,0.226);
+            font-size: 20px;
+            color: inherit;
+            cursor: pointer;
+
+            &.active{
+                border-bottom: 2px solid #2A7AE4;
+            }
+        }
+    }
+
+    .cards-container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+
+        .card {
+            cursor: pointer;
+            flex: 1 1 490px;
+            background-color: rgba(0,0,0,0.226);
+            border: 1px solid rgba(0, 0, 0, 0.3);
+            position: relative;
+            overflow: hidden;
+            margin: 20px;
+
+            .cardImage{
+                padding: 10px;
+                text-align: center;
+
+                img {
+                    height: 200px;
+                    width: 200px;
+                    object-fit: contain;
+                    filter: drop-shadow(0 3px 5px rgba(0, 0, 0, 0.7));
+                }
+            }
+
+            .cardInfo{
+                h3{
+                    padding: 10px;
+                    font-size: 20px;
+                    text-transform: uppercase;
+                    text-align: left;
+                    margin: 0;
+                }
+
+                .cardSubInfo{
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    padding: 15px 10px;
+                }
+            }
+
+            .cardOverlay{
+                position: absolute;
+                width: 100%;
+                height: 100%;
+                top: -100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background-color: #26262699;
+                transition: all .4s;
+
+                a{
+                    color: white;
+                    font-size: 40px;
+                    margin: 20px;
+                }
+            }
+
+            &:hover {
+                .cardOverlay{
+                    top: 0;
+                }
+            }
+        }
+    }
+}
