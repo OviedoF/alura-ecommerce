@@ -1,0 +1,11 @@
+.SimilarProducts{
+    h2{
+        text-align: left;
+        margin-bottom: 70px;
+    }
+    .similarProductsCardsContainer{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    margin-top: 150px;
+}

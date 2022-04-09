@@ -11,7 +11,8 @@ function NumerationPromotion({promotionalInfo, numPosition, handleNumPosition}) 
                 <FontAwesomeIcon icon={faAngleLeft} onClick={() => handleNumPosition(false)}/>
                 <FontAwesomeIcon icon={faAngleRight} onClick={() => handleNumPosition(true)}/>
             </div>
-            <p>{promotionalInfo.Info[numPosition]}</p>
+            <p id="promotionalInfoP">{promotionalInfo.Info[numPosition]}</p>
+            <p>${promotionalInfo.Price[numPosition]}.00<span>${promotionalInfo.PriceWithoutOffer[numPosition]}.00</span></p>
         </div>
      );
 }

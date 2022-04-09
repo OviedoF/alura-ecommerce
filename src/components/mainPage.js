@@ -29,18 +29,18 @@ function MainPage() {
         logos: [NintendoLogo, NintendoLogo2, AsusLogo, FunkoLogo, microsoftLogo],
         Info: texts.promotionals[lenguage].info,
         Price: [
-            11500,
-            8000,
-            150000,
-            1500,
-            140000
-        ],
-        Discount: [
+            50,
+            40,
+            400,
             20,
-            33,
-            15,
-            25,
-            35
+            500
+        ],
+        PriceWithoutOffer: [
+            60,
+            55,
+            450,
+            40,
+            600
         ],
         largeInfo: texts.promotionals[lenguage].largeInfo
     };

@@ -4,9 +4,12 @@ import imagesImported from "../imagesImports";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faShoppingCart, faBook } from "@fortawesome/free-solid-svg-icons";
 import articlesMain from '../articles.json';
+import { useSelector } from "react-redux";
+import texts from '../texts.json';
 
 function ArticlesMainSection() {
     const [mixit, setMixit] = useState('featured');
+    const lenguage = useSelector(state => state.lenguage);
 
     const handleMixit = (e) => {
         setMixit(e.target.id);
@@ -19,27 +22,27 @@ function ArticlesMainSection() {
                 onClick={(e) => handleMixit(e)} 
                 id={'featured'} 
                 sectiontoactive={1}
-                className={mixit==='featured' && 'active'}
+                className={mixit==='featured' ? 'active' : ''}
                 >
-                    DESTACADOS
+                    {texts.ArticlesMainSection.buttons.featured[lenguage]}
                 </button>
 
                 <button 
                 onClick={(e) => handleMixit(e)} 
                 id={'promotions'} 
                 sectiontoactive={2} 
-                className={mixit==='promotions' && 'active'}
+                className={mixit==='promotions' ? 'active' : ''}
                 >
-                    PROMOCIONES
+                    {texts.ArticlesMainSection.buttons.promotions[lenguage]}
                 </button>
 
                 <button 
                 onClick={(e) => handleMixit(e)} 
                 id={'mostWanted'} 
                 sectiontoactive={3} 
-                className={mixit==='mostWanted' && 'active'}
+                className={mixit==='mostWanted' ? 'active' : ''}
                 >
-                    MÁS PEDIDOS
+                    {texts.ArticlesMainSection.buttons.mostWanted[lenguage]}
                 </button>
             </div>
 
@@ -51,17 +54,18 @@ function ArticlesMainSection() {
                         </div>
                         
                         <div className="cardInfo">
-                            <h3>{el.info}</h3>
+                            <h3>{el.info[lenguage]}</h3>
 
                             <div className="cardSubInfo">
                                 <div className="cardPrice">
-                                    ${el.price}.00
+                                    {el.priceWithoutOffer
+                                    ? <p>${el.price}.99 <span>${el.priceWithoutOffer}.99</span></p>
+                                    : '$' + el.price + '.00'}
                                 </div>
                             </div>
                         </div>
 
                         <div className="cardOverlay">
-                            <a href="#"><FontAwesomeIcon icon={faShoppingCart}/></a>
                             <a href="#"><FontAwesomeIcon icon={faBook}/></a>
                         </div>  
                     </div>  

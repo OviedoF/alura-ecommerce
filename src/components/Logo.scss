@@ -1,17 +1,26 @@
 .logo{
     display: flex;
     align-items: center;
-    svg{
-        margin-right: 12px;
-    } 
 
-    p{
-        width: 61px;
-
-        &#navbar_firstP{
-            span{
+    .logoLink{
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        color: inherit;
+        
+        svg{
+            margin-right: 12px;
+        } 
+    
+        p{
+            width: 61px;
+    
+            &#navbar_firstP{
                 color: #2A7AE4;
-                margin-right: 5px;
+                span{
+                    color: #2A7AE4;
+                    margin-right: 2px;
+                }
             }
         }
     }

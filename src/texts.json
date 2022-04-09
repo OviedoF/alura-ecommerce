@@ -103,5 +103,130 @@
                 "p": "Com seu console da Série Xbox, você tem a garantia de estar entretido todos os dias. Sua tecnologia foi criada para desafiar tanto os jogadores novatos quanto os experientes."
             }]
         }
+    },
+    "categorysGrid": {
+        "es": {
+            "consoles": "consolas",
+            "accessories": "accesorios",
+            "collection": "colección",
+            "fashion": "moda",
+            "promotions": "promociones",
+            "random": "diversos"
+        },
+        "en": {
+            "consoles": "consoles",
+            "accessories": "accessories",
+            "collection": "collection",
+            "fashion": "fashion",
+            "promotions": "promotions",
+            "random": "random"
+        },
+        "br": {
+            "consoles": "consoles",
+            "accessories": "acessórios",
+            "collection": "coleção",
+            "fashion": "moda",
+            "promotions": "promoções",
+            "random": "vários"
+        }
+    },
+    "ArticlesMainSection": {
+        "buttons": {
+            "featured": {
+                "es": "Destacados",
+                "en": "Featured",
+                "br": "Destaques"
+            },
+            "promotions": {
+                "es": "Promociones",
+                "en": "Promotions",
+                "br": "Promoções"
+            },
+            "mostWanted": {
+                "es": "Más pedidos",
+                "en": "More orders",
+                "br": "Mais encomendas"
+            }
+        }
+    },
+    "ContactSection": {
+        "links": {
+            "WhoWeAre": {
+                "es": "Quiénes somos",
+                "en": "Who we are",
+                "br": "Quem somos"
+            },
+            "privacyPolicy": {
+                "es": "Políticas de privacidad",
+                "en": "Privacy policy",
+                "br": "Política de privacidade"
+            },
+            "fidelityProgram": {
+                "es": "Programa de fidelidad",
+                "en": "Loyalty program",
+                "br": "Programa de fidelidade"
+            },
+            "ourStores": {
+                "es": "Nuestras tiendas",
+                "en": "Our stores",
+                "br": "Nossas lojas"
+            },
+            "iWannaBeFranchisee": {
+                "es": "Quiero ser franquiciado",
+                "en": "I want to be franchisee",
+                "br": "Eu quero me tornar um franqueado"
+            },
+            "advertiseHere": {
+                "es": "Anuncie aquí",
+                "en": "Advertise here",
+                "br": "Anuncie aqui"
+            }
+        },
+        "form": {
+            "talkToUs": {
+                "es": "Hable con nosotros",
+                "en": "Talk to us",
+                "br": "Fale conosco"
+            },
+            "name": {
+                "es": "Nombre",
+                "en": "Name",
+                "br": "Nome"
+            },
+            "message": {
+                "es": "Mensaje",
+                "en": "Message",
+                "br": "Mensagem"
+            },
+            "sendMessage": {
+                "es": "Enviar mensaje",
+                "en": "Send message",
+                "br": "Enviar uma mensagem"
+            }
+        }
+    },
+    "Footer": {
+        "Developed": {
+            "es": "Desarrollado por ",
+            "en": "Developed by ",
+            "br": "Desenvolvido por "
+        }
+    },
+    "Login": {
+        "login": {
+            "es": "Iniciar Sesión",
+            "en": "Login",
+            "br": "Acesso"
+        },
+        "inputEmail": {
+            "es": "escriba su email",
+            "en": "enter your email",
+            "br": "digite seu endereço de e-mail"
+        },
+        "inputPassword": {
+            "es": "escriba su contraseña",
+            "en": "enter your password",
+            "br": "digite sua senha"
+        }
     }
 }

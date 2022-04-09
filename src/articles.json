@@ -3,98 +3,754 @@
         "featured": [
             {
                 "id": "featured1",
-                "info": "Atari Camiseta",
+                "info": {
+                    "es": "Atari Camiseta",
+                    "en": "Atari Shirt",
+                    "br": "Camiseta Atari"
+                },
                 "price": 5.00
             },
             {
                 "id": "featured2",
-                "info": "Muñecos Darth Vader",
+                "info": {
+                    "es": "Muñecos Darth Vader",
+                    "en": "Darth Vader Dolls",
+                    "br": "Bonecas Darth Vader"
+                },
                 "price": 5.00
             },
             {
                 "id":"featured3",
-                "info":"Camiseta NES",
+                "info":{
+                    "es":"Camiseta NES",
+                    "en":"NES Shirt",
+                    "br":"Camiseta NES"
+                },
                 "price": 5.00
             },
             {
                 "id":"featured4",
-                "info": "PlayStation 5",
+                "info":{
+                    "es":"PlayStation 5",
+                    "en":"PlayStation 5",
+                    "br":"PlayStation 5"
+                },
                 "price": 60.00
             },
             {
                 "id":"featured5",
-                "info": "Cabeza soldado Star Wars",
+                "info": {
+                    "es": "Cabeza soldado Star Wars",
+                    "en": "Star Wars soldier head",
+                    "br": "Cabeça do soldado Star Wars"
+                },
                 "price": 5.00
             },
             {
                 "id":"featured6",
-                "info":"Control xbox One",
+                "info": {
+                    "es": "Control xbox One",
+                    "en": "Xbox One controller",
+                    "br": "Xbox One controlador"
+                },
                 "price": 20.00
             }
         ],
         "promotions": [
             {
                 "id":"promotions1",
-                "info": "Figura Baby Yoda",
+                "info": {
+                    "es": "Figura Baby Yoda",
+                    "en": "Baby Yoda Figure",
+                    "br": "Figura do Baby Yoda"
+                },
+                "priceWithoutOffer": 30,
                 "price": 10
             },
             {
                 "id":"promotions2",
-                "info": "Consola Xbox Series X",
+                "info": {
+                    "es": "Consola Xbox Series X",
+                    "en": "Xbox Series X console",
+                    "br": "Console Xbox X Series"
+                },
+                "priceWithoutOffer": 600,
                 "price": 500
             },
             {
                 "id":"promotions3",
-                "info": "Gafas Realidad Virtual",
+                "info": {
+                    "es": "Gafas Realidad Virtual",
+                    "en": "Virtual Reality Glasses",
+                    "br": "Óculos de Realidade Virtual"
+                },
+                "priceWithoutOffer": 350,
                 "price": 300
             },
             {
                 "id":"promotions4",
-                "info": "Figura coleccionable Darth Mau",
+                "info": {
+                    "es": "Figura coleccionable Darth Mau",
+                    "en": "Darth Mau Collectible Figure",
+                    "br": "Darth Mau Figura Coletável"
+                },
+                "priceWithoutOffer": 25,
                 "price": 15
             },
             {
                 "id":"promotions5",
-                "info": "Consola retro Game Boy Color",
+                "info": {
+                    "es": "Consola retro Game Boy Color",
+                    "en": "Retro console Game Boy Color",
+                    "br": "Console Retro Game Boy Color"
+                },
+                "priceWithoutOffer": 450,
                 "price": 300
             },
             {
                 "id":"promotions6",
-                "info": "Disfraz gigante Pikachu",
+                "info": {
+                    "es": "Disfraz gigante Pikachu",
+                    "en": "Pikachu cosplay",
+                    "br": "Figurino Pikachu Gigante"
+                },
+                "priceWithoutOffer": 150,
                 "price": 100
             }
         ],
         "mostWanted": [
             {
                 "id": "mostWanted1",
-                "info": "Consola XYZ",
+                "info": {
+                    "es": "Consola XYZ",
+                    "en": "XYZ Console",
+                    "br": "Console XYZ"
+                },
                 "price": 50.00
             },
             {
                 "id":"mostWanted2",
-                "info":"Mandos Nintendo Switch",
+                "info":{
+                    "es": "Mandos Nintendo Switch",
+                    "en": "Nintendo Switch controllers",
+                    "br": "Controladores Nintendo Switch"
+                },
                 "price": 20.00
             },
             {
                 "id":"mostWanted3",
-                "info":"Figura soldado Star Wars",
+                "info":{
+                    "es": "Figura soldado Star Wars",
+                    "en": "Star Wars soldier figure",
+                    "br": "Figura do Star Wars Soldier"
+                },
                 "price": 15.00
             },
             {
                 "id":"mostWanted4",
-                "info":"Figura Sonic el Erizo",
+                "info":{
+                    "es": "Figura Sonic el Erizo",
+                    "en": "Sonic the Hedgehog Figure",
+                    "br": "Sonic the Hedgehog Figura"
+                },
                 "price": 10.00
             },
             {
                 "id":"mostWanted5",
-                "info": "Consola retro NES",
+                "info":{
+                    "es": "Consola retro NES",
+                    "en": "Retro console NES",
+                    "br": "Console Retro NES"
+                },
                 "price": 50.00
             },
             {
                 "id":"mostWanted6",
-                "info": "Figura coleccionable Yoda",
+                "info": {
+                    "es": "Figura coleccionable Yoda",
+                    "en": "Yoda collectible figure",
+                    "br": "Figura de Yoda Colecionável"
+                },
                 "price": 15.00
             }
         ]
+    },
+    "Articles": {
+        "consoles": [
+            {
+                "id": 1,
+                "urlImg": "https://staticfiles-alurageek.herokuapp.com/consoles/nes.png",
+                "name": {
+                    "es": "Consola NES",
+                    "en": "Console NES",
+                    "br": "Consola NES"
+                },
+                "price": 299
+            },
+            {
+                "id": 2,
+                "urlImg": "https://staticfiles-alurageek.herokuapp.com/consoles/nintendoSwitch.png",
+                "name": {
+                    "es": "Nintendo Switch",
+                    "en": "Nintendo Switch",
+                    "br": "Nintendo Switch"
+                },
+                "price": 499
+            },
+            {
+                "id": 3,
+                "urlImg": "https://staticfiles-alurageek.herokuapp.com/consoles/PS4.png",
+                "name": {
+                    "es": "Playstation 4",
+                    "en": "Playstation 4",
+                    "br": "Playstation 4"
+                },
+                "price": 399
+            },
+            {
+                "id": 4,
+                "urlImg": "https://staticfiles-alurageek.herokuapp.com/consoles/PS5.png",
+                "name": {
+                    "es": "Playstation 5",
+                    "en": "Playstation 5",
+                    "br": "Playstation 5"
+                },
+                "price": 299
+            },
+            {
+                "id": 5,
+                "urlImg": "https://staticfiles-alurageek.herokuapp.com/consoles/SegaDreamcast.png",
+                "name": {
+                    "es": "Sega Dreamcast",
+                    "en": "Sega Dreamcast",
+                    "br": "Sega Dreamcast"
+                },
+                "price": 299
+            },
+            {
+                "id": 6,
+                "urlImg": "https://staticfiles-alurageek.herokuapp.com/consoles/segaGenesis.png",
+                "name": {
+                    "es": "Sega Genesis",
+                    "en": "Sega Genesis",
+                    "br": "Sega Genesis"
+                },
+                "price": 299
+            },
+            {
+                "id": 7,
+                "urlImg": "https://staticfiles-alurageek.herokuapp.com/consoles/wiiU.png",
+                "name": {
+                    "es": "Nintendo WiiU",
+                    "en": "Nintendo WiiU",
+                    "br": "Nintendo WiiU"
+                },
+                "price": 299
+            },
+            {
+                "id": 8,
+                "urlImg": "https://staticfiles-alurageek.herokuapp.com/consoles/xbox360.png",
+                "name": {
+                    "es": "Microsoft Xbox 360",
+                    "en": "Microsoft Xbox 360",
+                    "br": "Microsoft Xbox 360"
+                },
+                "price": 299
+            },
+            {
+                "id": 9,
+                "urlImg": "https://staticfiles-alurageek.herokuapp.com/consoles/XboxOne.png",
+                "name": {
+                    "es": "Microsoft Xbox ONE",
+                    "en": "Microsoft Xbox ONE",
+                    "br": "Microsoft Xbox ONE"
+                },
+                "priceWithoutOffer": 399,
+                "price": 249
+            },
+            {
+                "id": 10,
+                "urlImg": "https://staticfiles-alurageek.herokuapp.com/consoles/xboxSeriesS.png",
+                "name": {
+                    "es": "Xbox Series S",
+                    "en": "Xbox Series S",
+                    "br": "Xbox Series S"
+                },
+                "price": 299
+            },
+            {
+                "id": 11,
+                "urlImg": "https://staticfiles-alurageek.herokuapp.com/consoles/xboxSeriesX.png",
+                "name": {
+                    "es": "Xbox Series X",
+                    "en": "Xbox Series X",
+                    "br": "Xbox Series X"
+                },
+                "price": 299
+            }
+        ],
+        "accesories": [
+            {
+                "id": 12,
+                "urlImg": "https://staticfiles-alurageek.herokuapp.com/accesories/LogitechG332Headset.png",
+                "name": {
+                    "es": "Auriculares Gamer Logitech G332",
+                    "en": "Gaming Headset Logitech G332",
+                    "br": "Fone de ouvido Gamer Logitech G332"
+                },
+                "price": 29
+            },
+            {
+                "id": 13,
+                "urlImg": "https://staticfiles-alurageek.herokuapp.com/accesories/HeadSetCougarPink.png",
+                "name": {
+                    "es": "Auriculares Cougar Gaming",
+                    "en": "Headset Cougar Gaming",
+                    "br": "Fone de ouvido Cougar Gaming"
+                },
+                "price": 29
+            },
+            {
+                "id": 14,
+                "urlImg": "https://staticfiles-alurageek.herokuapp.com/accesories/redragonZeus.png",
+                "name": {
+                    "es": "Auriculares Gamer Redragon Zeus",
+                    "en": "Gamer Headset Redragon Zeus",
+                    "br": "Fone de ouvido Redragon Zeus"
+                },
+                "price": 29
+            },
+            {
+                "id": 15,
+                "urlImg": "https://staticfiles-alurageek.herokuapp.com/accesories/LogitechG512.png",
+                "name": {
+                    "es": "Teclado Logitech G512",
+                    "en": "Keyboard Logitech G512",
+                    "br": "Teclado Logitech G512"
+                },
+                "price": 29
+            },
+            {
+                "id": 16,
+                "urlImg": "https://staticfiles-alurageek.herokuapp.com/accesories/AsusStrix.png",
+                "name": {
+                    "es": "Teclado Asus Strix Flare Mx Blue",
+                    "en": "Keyboard Asus Strix Flare Mx Blue",
+                    "br": "Teclado Asus Strix Flare Mx Blue"
+                },
+                "price": 29
+            },
+            {
+                "id": 17,
+                "urlImg": "https://staticfiles-alurageek.herokuapp.com/accesories/PoseidonGamingKeyboard.png",
+                "name": {
+                    "es": "Teclado Poseidon Gaming",
+                    "en": "Keyboard Poseidon Gaming",
+                    "br": "Teclado Poseidon Gaming"
+                },
+                "price": 29
+            },
+            {
+                "id": 18,
+                "urlImg": "https://staticfiles-alurageek.herokuapp.com/accesories/redragonKumara552.png",
+                "name": {
+                    "es": "Teclado Redragon Kumara k552",
+                    "en": "Keyboard Redragon Kumara k552",
+                    "br": "Teclado Redragon Kumara k552"
+                },
+                "price": 29
+            },
+            {
+                "id": 19,
+                "urlImg": "https://staticfiles-alurageek.herokuapp.com/accesories/RazerMamba.png",
+                "name": {
+                    "es": "Mouse Razer Mamba",
+                    "en": "Mouse Razer Mamba",
+                    "br": "Mouse Razer Mamba"
+                },
+                "price": 29
+            },
+            {
+                "id": 20,
+                "urlImg": "https://staticfiles-alurageek.herokuapp.com/accesories/AsusRogg.png",
+                "name": {
+                    "es": "Mouse Asus Rog Puggio",
+                    "en": "Mouse Asus Rog Puggio",
+                    "br": "Mouse Asus Rog Puggio"
+                },
+                "price": 29
+            },
+            {
+                "id": 21,
+                "urlImg": "https://staticfiles-alurageek.herokuapp.com/accesories/nesControler.png",
+                "name": {
+                    "es": "Mando NES",
+                    "en": "Controller",
+                    "br": "Controlador"
+                },
+                "price": 29
+            },
+            {
+                "id": 22,
+                "urlImg": "https://staticfiles-alurageek.herokuapp.com/accesories/switchControllers.png",
+                "name": {
+                    "es": "Mandos Nintendo Switch",
+                    "en": "Nintendo Switch Controllers",
+                    "br": "Nintendo Switch Controladores"
+                },
+                "price": 29
+            },
+            {
+                "id": 23,
+                "urlImg": "https://staticfiles-alurageek.herokuapp.com/accesories/ps4Controller.png",
+                "name": {
+                    "es": "Mando PS4",
+                    "en": "PS4 Controller",
+                    "br": "PS4 Controlador"
+                },
+                "price": 29
+            },
+            {
+                "id": 24,
+                "urlImg": "https://staticfiles-alurageek.herokuapp.com/accesories/dreamcastController.png",
+                "name": {
+                    "es": "Mando Sega DreamCast",
+                    "en": "Sega DreamCast Controller",
+                    "br": "Sega DreamCast Controlador"
+                },
+                "price": 29
+            },
+            {
+                "id": 25,
+                "urlImg": "https://staticfiles-alurageek.herokuapp.com/accesories/segaGenesisController.png",
+                "name": {
+                    "es": "Mando Sega Genesis",
+                    "en": "Sega Genesis Controller",
+                    "br": "Sega Genesis Controlador"
+                },
+                "price": 29
+            },
+            {
+                "id": 26,
+                "urlImg": "https://staticfiles-alurageek.herokuapp.com/accesories/xbox360Controll.png",
+                "name": {
+                    "es": "Mando Xbox 360",
+                    "en": "Xbox 360 Controller",
+                    "br": "Xbox 360 Controlador"
+                },
+                "price": 29
+            },
+            {
+                "id": 27,
+                "urlImg": "https://staticfiles-alurageek.herokuapp.com/accesories/ControlXboxSeriesX.png",
+                "name": {
+                    "es": "Mando Xbox Series X",
+                    "en": "Xbox Series X Controller",
+                    "br": "Xbox Series X Controlador"
+                },
+                "price": 29
+            }
+        ],
+        "fashion": [
+            {
+                "id": 28,
+                "urlImg": "https://staticfiles-alurageek.herokuapp.com/fashion/callMeOnJapanShirt.png",
+                "name": {
+                    "es": "Camiseta 'Call me on Japan'",
+                    "en": "'Call me on Japan' T-Shirt",
+                    "br": "Camiseta 'Call me on Japan'"
+                },
+                "price": 13
+            },
+            {
+                "id": 29,
+                "urlImg": "https://staticfiles-alurageek.herokuapp.com/fashion/charmanderEvolutionsShirt.png",
+                "name": {
+                    "es": "Camiseta evoluciones de Charmander",
+                    "en": "Charmander evolutions T-Shirt",
+                    "br": "Camiseta evoluções do Charmander"
+                },
+                "price": 13
+            },
+            {
+                "id": 30,
+                "urlImg": "https://staticfiles-alurageek.herokuapp.com/fashion/findingPokemonShirt.png",
+                "name": {
+                    "es": "Finding Pokemons Camiseta",
+                    "en": "Finding Pokemons T-Shirt",
+                    "br": "Finding Pokemons Camiseta"
+                },
+                "price": 13
+            },
+            {
+                "id": 31,
+                "urlImg": "https://staticfiles-alurageek.herokuapp.com/fashion/GamingLifeJoggin.png",
+                "name": {
+                    "es": "Buzo pixeles corazones",
+                    "en": "Gaming Life Jogging Suit",
+                    "br": "Jogging Suit vida de jogo"
+                },
+                "price": 19
+            },
+            {
+                "id": 32,
+                "urlImg": "https://staticfiles-alurageek.herokuapp.com/fashion/JapanShirt.png",
+                "name": {
+                    "es": "Marea de mar camiseta",
+                    "en": "Japan Wave T-Shirt",
+                    "br": "Camiseta Maré do mar"
+                },
+                "priceWithoutOffer": 13,
+                "price": 9
+            },
+            {
+                "id": 33,
+                "urlImg": "https://staticfiles-alurageek.herokuapp.com/fashion/laserStarWarsShirt.png",
+                "name": {
+                    "es": "Laser Star Wars Camiseta",
+                    "en": "Laser Star Wars T-Shirt",
+                    "br": "Laser Star Wars Camiseta"
+                },
+                "price": 13
+            },
+            {
+                "id": 34,
+                "urlImg": "https://staticfiles-alurageek.herokuapp.com/fashion/projectYasuoShirt.png",
+                "name": {
+                    "es": "Proyecto Yasuo camiseta",
+                    "en": "Project Yasuo T-Shirt",
+                    "br": "Projeto Yasuo camiseta"
+                },
+                "price": 13
+            },
+            {
+                "id": 35,
+                "urlImg": "https://staticfiles-alurageek.herokuapp.com/fashion/starwarsShirt1.png",
+                "name": {
+                    "es": "Star Wars camiseta",
+                    "en": "Star Wars T-Shirt",
+                    "br": "Star Wars camiseta"
+                },
+                "priceWithoutOffer": 13,
+                "price": 9
+            },
+            {
+                "id": 36,
+                "urlImg": "https://staticfiles-alurageek.herokuapp.com/fashion/SupermanShirt.png",
+                "name": {
+                    "es": "Superman camiseta",
+                    "en": "Superman T-Shirt",
+                    "br": "Superman camiseta"
+                },
+                "price": 13
+            },
+            {
+                "id": 37,
+                "urlImg": "https://staticfiles-alurageek.herokuapp.com/fashion/uwuowoshirt.png",
+                "name": {
+                    "es": "UwU OwO camiseta",
+                    "en": "UwU OwO T-Shirt",
+                    "br": "UwU OwO camiseta"
+                },
+                "price": 13
+            },
+            {
+                "id": 38,
+                "urlImg": "https://staticfiles-alurageek.herokuapp.com/fashion/ZeldaShirt.png",
+                "name": {
+                    "es": "The Legend Of Zelda Camiseta",
+                    "en": "The Legend Of Zelda T-Shirt",
+                    "br": "The Legend Of Zelda Camiseta"
+                },
+                "price": 13
+            }
+        ],
+        "promotions": [
+            {
+                "id": 39,
+                "urlImg": "https://staticfiles-alurageek.herokuapp.com/consoles/XboxOne.png",
+                "name": {
+                    "es": "Consola Xbox Series S",
+                    "en": "Consola Xbox Series S",
+                    "br": "Consola Xbox Series S"
+                },
+                "priceWithoutOffer": 399,
+                "price": 249
+            },
+            {
+                "id": 40,
+                "urlImg": "https://staticfiles-alurageek.herokuapp.com/fashion/JapanShirt.png",
+                "name": {
+                    "es": "Marea de mar camiseta",
+                    "en": "Japan Wave T-Shirt",
+                    "br": "Camiseta Maré do mar"
+                },
+                "priceWithoutOffer": 13,
+                "price": 9
+            },
+            {
+                "id": 41,
+                "urlImg": "https://staticfiles-alurageek.herokuapp.com/fashion/starwarsShirt1.png",
+                "name": {
+                    "es": "Star Wars camiseta",
+                    "en": "Star Wars T-Shirt",
+                    "br": "Star Wars camiseta"
+                },
+                "priceWithoutOffer": 13,
+                "price": 9
+            }
+        ],
+        "collection": [
+            {
+                "id": 42,
+                "urlImg": "https://staticfiles-alurageek.herokuapp.com/collection/starwars/babyYodaFigure.png",
+                "name": {
+                    "es": "Baby Yoda Figura",
+                    "en": "baby Yoda Figure",
+                    "br": "Baby Yoda Figura"
+                },
+                "price": 13
+            },
+            {
+                "id": 43,
+                "urlImg": "https://staticfiles-alurageek.herokuapp.com/collection/starwars/bobaFett.png",
+                "name": {
+                    "es": "Boba Fett Figura",
+                    "en": "Boba Fett Figure",
+                    "br": "Boba Fett Figura"
+                },
+                "price": 13
+            },
+            {
+                "id": 44,
+                "urlImg": "https://staticfiles-alurageek.herokuapp.com/collection/starwars/chibiVader.png",
+                "name": {
+                    "es": "Chibi Vader Figura",
+                    "en": "Chibi Vader Figure",
+                    "br": "Chibi Vader Figura"
+                },
+                "price": 13
+            },
+            {
+                "id": 45,
+                "urlImg": "https://staticfiles-alurageek.herokuapp.com/collection/starwars/darthVaderFigure.png",
+                "name": {
+                    "es": "Darth Vader Figura",
+                    "en": "Darth Vader Figure",
+                    "br": "Darth Vader Figura"
+                },
+                "price": 13
+            },
+            {
+                "id": 46,
+                "urlImg": "https://staticfiles-alurageek.herokuapp.com/collection/starwars/jangoFett.png",
+                "name": {
+                    "es": "Jango Fett Figura",
+                    "en": "Jango Fett Figure",
+                    "br": "Jango Fett Figura"
+                },
+                "price": 13
+            },
+            {
+                "id": 47,
+                "urlImg": "https://staticfiles-alurageek.herokuapp.com/collection/starwars/stormtrooperFigure.png",
+                "name": {
+                    "es": "StormTrooper Figura",
+                    "en": "StormTrooper Figure",
+                    "br": "StormTrooper Figura"
+                },
+                "price": 13
+            },
+            {
+                "id": 48,
+                "urlImg": "https://staticfiles-alurageek.herokuapp.com/collection/starwars/yodaFigure1.png",
+                "name": {
+                    "es": "Yoda Figura",
+                    "en": "Yoda Figure",
+                    "br": "Yoda Figura"
+                },
+                "price": 13
+            },
+            {
+                "id": 49,
+                "urlImg": "https://staticfiles-alurageek.herokuapp.com/collection/starwars/legoStarWars.png",
+                "name": {
+                    "es": "Lego Star Wars set",
+                    "en": "Lego Star Wars set",
+                    "br": "Lego Star Wars set"
+                },
+                "price": 13
+            },
+            {
+                "id": 50,
+                "urlImg": "https://staticfiles-alurageek.herokuapp.com/collection/starwars/legoStarWars2.png",
+                "name": {
+                    "es": "Lego Star Wars set 2",
+                    "en": "Lego Star Wars set 2",
+                    "br": "Lego Star Wars set 2"
+                },
+                "price": 13
+            },
+            {
+                "id": 51,
+                "urlImg": "https://staticfiles-alurageek.herokuapp.com/collection/funko/theWalkingDeadFUNKO.png",
+                "name": {
+                    "es": "Funko POP Dead Daryl Dixon TWD",
+                    "en": "Funko POP Dead Daryl Dixon TWD",
+                    "br": "Funko POP Dead Daryl Dixon TWD"
+                },
+                "price": 13
+            },
+            {
+                "id": 52,
+                "urlImg": "https://staticfiles-alurageek.herokuapp.com/collection/funko/spidermanFUNKO.png",
+                "name": {
+                    "es": "Funko POP Spider-Man",
+                    "en": "Funko POP Spider-Man",
+                    "br": "Funko POP Spider-Man"
+                },
+                "price": 13
+            },
+            {
+                "id": 53,
+                "urlImg": "https://staticfiles-alurageek.herokuapp.com/collection/funko/kyloRenFUNKO.png",
+                "name": {
+                    "es": "Funko POP Kylo Ren",
+                    "en": "Funko POP Kylo Ren",
+                    "br": "Funko POP Kylo Ren"
+                },
+                "price": 13
+            },
+            {
+                "id": 54,
+                "urlImg": "https://staticfiles-alurageek.herokuapp.com/collection/funko/johnWickFUNKO.png",
+                "name": {
+                    "es": "Funko POP John Wick",
+                    "en": "Funko POP John Wick",
+                    "br": "Funko POP John Wick"
+                },
+                "price": 13
+            },
+            {
+                "id": 55,
+                "urlImg": "https://staticfiles-alurageek.herokuapp.com/collection/funko/hanSoloFUNKO.png",
+                "name": {
+                    "es": "Funko POP Han Solo",
+                    "en": "Funko POP Han Solo",
+                    "br": "Funko POP Han Solo"
+                },
+                "price": 13
+            },
+            {
+                "id": 56,
+                "urlImg": "https://staticfiles-alurageek.herokuapp.com/collection/funko/christmasVaderFUNKO.png",
+                "name": {
+                    "es": "Funko POP Christmas Vader",
+                    "en": "Funko POP Christmas Vader",
+                    "br": "Funko POP Christmas Vader"
+                },
+                "price": 13
+            }
+        ]
     }
-}
+} 

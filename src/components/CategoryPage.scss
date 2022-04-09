@@ -1,0 +1,56 @@
+main {
+    display: flex;
+    margin-top: 100px;
+
+    .productCardsContainer{
+        padding-left: 30px;
+        display: flex;
+        flex-wrap: wrap;
+
+        .productCard{
+            margin: 20px;
+            margin-top: 40px;
+            width: 230px;
+            background-color: rgba(0,0,0,0.226);
+            height: 300px;
+            border-radius: 20px;
+            position: relative;
+        
+            img{
+                width: 200px;
+                height: 150px;
+                position: relative;
+                top: -50px;
+                object-fit: contain;
+                transition: all 1s;
+                &:hover {
+                    transform: scale(1.2);
+                }
+            }
+        
+            p{
+                font-size: 20px;
+                margin-top: 0;
+                padding: 5px;
+            }
+
+            .cardPrice{
+                p{
+                    font-size: 16px;
+                    margin: 0;
+
+                    span{
+                        color: red;
+                        font-size: 13px;
+                        text-decoration: line-through;
+                    }
+                }
+            }
+        
+            a{ 
+                text-decoration: none;
+                color: inherit;
+            }
+        }
+    }
+}

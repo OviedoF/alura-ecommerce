@@ -1,52 +1,57 @@
+import { useSelector } from 'react-redux';
 import './CategorysGrid.scss';
+import translations from '../texts.json';
+import { Link } from 'react-router-dom';
 
 function CategorysGrid() {
+    const lenguage = useSelector(state => state.lenguage);
+
     return ( 
         <div className="collectionsGrid">
             <div className='collectionCell' id='consolesCell'>
-                <a href='/hola'>
+                <Link to={'/products/consoles'}>
                     <div className='collectionTextBanner'>
-                        CONSOLAS
+                        {translations.categorysGrid[lenguage].consoles}
                     </div>
-                </a>
+                </Link>
             </div>
 
             <div className='collectionCell'  id='accesoriesCell'>
-                <a href='/hola'>
+                <Link to={'/products/accesories'}>
                     <div className='collectionTextBanner'>
-                        ACCESORIOS
+                        {translations.categorysGrid[lenguage].accessories}
                     </div>
-                </a>
+                </Link>
             </div>
 
             <div className='collectionCell' id='collectionCell'>
-                <a href='/hola'>
+                <Link to={'/products/collection'}>
                     <div className='collectionTextBanner'>
-                        COLECCION
+                        {translations.categorysGrid[lenguage].collection}
                     </div>
-                </a>
+                </Link>
             </div>
 
             <div className='collectionCell' id='modeCell'>
-                <a href='/hola'>
+                <Link to={'/products/fashion'}>
                     <div className='collectionTextBanner'>
-                        MODA
+                        {translations.categorysGrid[lenguage].fashion}
                     </div>
-                </a>
+                </Link>
             </div>
             <div className='collectionCell' id='promotionCell'>
-                <a href='/hola'>
+                <Link to={'/products/promotions'}>
                     <div className='collectionTextBanner'>
-                        PROMOCIONES
+                        {translations.categorysGrid[lenguage].promotions}
                     </div>
-                </a>
+                </Link>
             </div>
             <div className='collectionCell' id='varietyCell'>
-                <a href='/hola'>
+                <Link to={'/products/random'}>
                     <div className='collectionTextBanner'>
-                        DIVERSOS
+                        {translations.categorysGrid[lenguage].random}
                     </div>
-                </a>
+                </Link>
             </div>
         </div>
      );
