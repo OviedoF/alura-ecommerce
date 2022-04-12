@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/oviedof.github.io/alura-geek/static/css/main.7777cf61.css",
-    "main.js": "/oviedof.github.io/alura-geek/static/js/main.a53424e5.js",
-    "static/media/accesories.jpg": "/oviedof.github.io/alura-geek/static/media/accesories.f9302ee2fe4ac30eefd8.jpg",
-    "static/media/mode.jpg": "/oviedof.github.io/alura-geek/static/media/mode.440a92e56018b5e209f9.jpg",
-    "static/media/variety.jpg": "/oviedof.github.io/alura-geek/static/media/variety.76c2d6f64564890791c1.jpg",
-    "static/media/consoles.jpg": "/oviedof.github.io/alura-geek/static/media/consoles.dd7a8478e089288f0a50.jpg",
-    "static/media/collection.jpg": "/oviedof.github.io/alura-geek/static/media/collection.bf5ef0399cb69adee863.jpg",
-    "static/media/promotions.jpg": "/oviedof.github.io/alura-geek/static/media/promotions.3ad69d1124ea720d7474.jpg",
-    "index.html": "/oviedof.github.io/alura-geek/index.html",
-    "main.7777cf61.css.map": "/oviedof.github.io/alura-geek/static/css/main.7777cf61.css.map",
-    "main.a53424e5.js.map": "/oviedof.github.io/alura-geek/static/js/main.a53424e5.js.map"
+    "main.css": "/alura-ecommerce/static/css/main.b231967c.css",
+    "main.js": "/alura-ecommerce/static/js/main.a53424e5.js",
+    "static/media/accesories.jpg": "/alura-ecommerce/static/media/accesories.f9302ee2fe4ac30eefd8.jpg",
+    "static/media/mode.jpg": "/alura-ecommerce/static/media/mode.440a92e56018b5e209f9.jpg",
+    "static/media/variety.jpg": "/alura-ecommerce/static/media/variety.76c2d6f64564890791c1.jpg",
+    "static/media/consoles.jpg": "/alura-ecommerce/static/media/consoles.dd7a8478e089288f0a50.jpg",
+    "static/media/collection.jpg": "/alura-ecommerce/static/media/collection.bf5ef0399cb69adee863.jpg",
+    "static/media/promotions.jpg": "/alura-ecommerce/static/media/promotions.3ad69d1124ea720d7474.jpg",
+    "index.html": "/alura-ecommerce/index.html",
+    "main.b231967c.css.map": "/alura-ecommerce/static/css/main.b231967c.css.map",
+    "main.a53424e5.js.map": "/alura-ecommerce/static/js/main.a53424e5.js.map"
   },
   "entrypoints": [
-    "static/css/main.7777cf61.css",
+    "static/css/main.b231967c.css",
     "static/js/main.a53424e5.js"
   ]
 }
