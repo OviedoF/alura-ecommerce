@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/alura-ecommerce/static/css/main.3df8a71c.css",
-    "main.js": "/alura-ecommerce/static/js/main.e3ef7449.js",
+    "main.css": "/alura-ecommerce/static/css/main.a31551c0.css",
+    "main.js": "/alura-ecommerce/static/js/main.b1ad2b77.js",
     "static/media/accesories.jpg": "/alura-ecommerce/static/media/accesories.f9302ee2fe4ac30eefd8.jpg",
     "static/media/mode.jpg": "/alura-ecommerce/static/media/mode.440a92e56018b5e209f9.jpg",
     "static/media/variety.jpg": "/alura-ecommerce/static/media/variety.76c2d6f64564890791c1.jpg",
@@ -9,11 +9,11 @@
     "static/media/collection.jpg": "/alura-ecommerce/static/media/collection.bf5ef0399cb69adee863.jpg",
     "static/media/promotions.jpg": "/alura-ecommerce/static/media/promotions.3ad69d1124ea720d7474.jpg",
     "index.html": "/alura-ecommerce/index.html",
-    "main.3df8a71c.css.map": "/alura-ecommerce/static/css/main.3df8a71c.css.map",
-    "main.e3ef7449.js.map": "/alura-ecommerce/static/js/main.e3ef7449.js.map"
+    "main.a31551c0.css.map": "/alura-ecommerce/static/css/main.a31551c0.css.map",
+    "main.b1ad2b77.js.map": "/alura-ecommerce/static/js/main.b1ad2b77.js.map"
   },
   "entrypoints": [
-    "static/css/main.3df8a71c.css",
-    "static/js/main.e3ef7449.js"
+    "static/css/main.a31551c0.css",
+    "static/js/main.b1ad2b77.js"
   ]
 }
